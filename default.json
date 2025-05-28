@@ -4,5 +4,6 @@
     "managerFilePatterns": [
       "/argocd/.+\\.yaml$/"
     ]
-  }
+  },
+  "dependencyDashboard": true
 }
