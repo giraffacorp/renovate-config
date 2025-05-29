@@ -10,11 +10,11 @@ The repository currently includes:
 
 ### Current Configuration Features
 
-- **ArgoCD Integration**: Configured to recognize ArgoCD YAML files in specific directories
+- **ArgoCD Integration**: Configured to recognize ArgoCD YAML files in `argocd` directories
 
 ## How to Use
 
-Other repositories in the can inherit this configuration by referencing it in their own Renovate configuration:
+Other repositories can inherit this configuration by referencing it in their own Renovate configuration:
 
 ```json
 {
