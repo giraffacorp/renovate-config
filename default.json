@@ -5,5 +5,6 @@
       "/argocd/.+\\.yaml$/"
     ]
   },
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "assigneesFromCodeOwners": true
 }
