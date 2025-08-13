@@ -6,7 +6,12 @@
   ],
   "argocd": {
     "managerFilePatterns": [
-      "/argocd/.+\\.yaml$/"
+      "/argocd/.+\\.ya?ml$/"
+    ]
+  },
+  "kustomize": {
+    "managerFilePatterns": [
+      "/apps/.+/kustomization\\.ya?ml$/"
     ]
   },
   "dependencyDashboard": true,
