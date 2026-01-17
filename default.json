@@ -6,14 +6,16 @@
   ],
   "argocd": {
     "managerFilePatterns": [
-      "/argocd/.+\\.ya?ml$/"
+      "argocd/.+\\.ya?ml$"
     ]
   },
   "kustomize": {
     "managerFilePatterns": [
-      "/apps/.+/kustomization\\.ya?ml$/"
+      "apps/.+/kustomization\\.ya?ml$"
     ]
   },
   "dependencyDashboard": true,
-  "assigneesFromCodeOwners": true
+  "assignees": ["giraffacarp"],
+  "schedule": ["on saturday"],
+  "minimumReleaseAge": "7 days"
 }
